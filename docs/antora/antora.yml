@@ -1,5 +1,5 @@
-name: peacetrue-template-gradle
-title: gradle 模板项目
+name: sample-sso-cas
+title: CAS 样章
 version: master
 asciidoc:
   attributes:

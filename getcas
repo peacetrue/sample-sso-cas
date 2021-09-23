@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+function getcas(){
+    curl https://casinit.herokuapp.com/starter.tgz \
+      -d type=cas-overlay -d baseDir=overlay -d dependencies="$1" | tar -xzvf -
+    ls
+}
+
+getcas duo,oidc
